@@ -1,4 +1,5 @@
 body {
+  position: relative;
   margin: 20px 40px 20px 40px;
 }
 .header {
@@ -17,7 +18,6 @@ body {
   border: solid 1px black;
   border-radius: 5px;
 }
-
 h2,
 a,
 p {
@@ -26,13 +26,41 @@ p {
 h2 {
   margin-top: 15px;
 }
-
 .profile-pic {
   width: 70px;
   height: 70px;
   border-radius: 50px;
   margin: 18px 15px;
 }
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(100, 100, 100, 0.4);
+}
+.modal {
+  width: 375px;
+  margin: 15% auto auto;
+  position: relative;
+  text-align: center;
+  background: #fff;
+  border: 1px solid #778;
+  border-radius: 5px;
+  padding: 30px 20px;
+}
+.modal-close {
+  position: absolute;
+  right: 15px;
+  top: 5px;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+
+/* this it the grid setup only */
 #cc-1 {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
