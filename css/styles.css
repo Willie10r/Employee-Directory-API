@@ -61,51 +61,63 @@ h2 {
 }
 
 /* this it the grid setup only */
-#cc-1 {
+div[data-index="0"],
+.cc-0 {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
 }
-#cc-2 {
+div[data-index="1"],
+.cc-1 {
   grid-column: 2 / 3;
   grid-row: 1 / 2;
 }
-#cc-3 {
+div[data-index="2"],
+.cc-2 {
   grid-column: 3 / 4;
   grid-row: 1 / 2;
 }
-#cc-4 {
+div[data-index="3"],
+.cc-3 {
   grid-column: 1 / 2;
   grid-row: 2 / 3;
 }
-#cc-5 {
+div[data-index="4"],
+.cc-4 {
   grid-column: 2 / 3;
   grid-row: 2 / 3;
 }
-#cc-6 {
+div[data-index="5"],
+.cc-5 {
   grid-column: 3 / 4;
   grid-row: 2 / 3;
 }
-#cc-7 {
+div[data-index="6"],
+.cc-6 {
   grid-column: 1 / 2;
   grid-row: 3 / 4;
 }
-#cc-8 {
+div[data-index="7"],
+.cc-7 {
   grid-column: 2 / 3;
   grid-row: 3 / 4;
 }
-#cc-9 {
+div[data-index="8"],
+.cc-8 {
   grid-column: 3 / 4;
   grid-row: 3 / 4;
 }
-#cc-10 {
+div[data-index="9"],
+.cc-9 {
   grid-column: 1 / 2;
   grid-row: 4 / 5;
 }
-#cc-11 {
+div[data-index="10"],
+.cc-10 {
   grid-column: 2 / 3;
   grid-row: 4 / 5;
 }
-#cc-12 {
+div[data-index="11"],
+.cc-11 {
   grid-column: 3 / 4;
   grid-row: 4 / 5;
 }
