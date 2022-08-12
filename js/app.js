@@ -60,9 +60,10 @@ gridContainer.addEventListener('click', e => {
     displayModal(index);
     }
 });
-modalClose.addEventListener('click', e => {
-  if(e.target == modalClose) {
-    overlay.classList("hidden");
+overlay.addEventListener('click', e => {
+  if(e.target.classList.contains('modalClose')) {
+    overlay.classList.add("hidden");
+    console.log('what');
   }
 });
 
