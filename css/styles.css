@@ -1,16 +1,17 @@
 body {
-  position: relative;
+  /* position: relative; */
   padding: 0px 40px 20px 40px;
   margin: 0px;
 }
 .header {
   font-weight: 900;
-  margin: 20px 0px;
+  margin: 0px 0px;
+  padding-top: 20px;
 }
 .gridContainer {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 2fr 2fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 2fr 2fr 2fr 2fr;
   gap: 10px;
 }
 .card-container {
@@ -41,16 +42,19 @@ h2 {
   right: 0;
   bottom: 0;
   background: rgba(100, 100, 100, 0.4);
+  height: 100%;
 }
 .modal {
   width: 375px;
-  margin: 15% auto auto;
+  margin: 0px;
   position: relative;
   text-align: center;
   background: #fff;
   border: 1px solid #778;
   border-radius: 5px;
   padding: 30px 20px;
+  top: 20%;
+  left: 35%;
 }
 .modalClose {
   position: absolute;
