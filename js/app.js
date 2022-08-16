@@ -46,13 +46,12 @@ function displayModal(index) {
     <hr />
     <p>${phone}</p>
     <p class="address">${street.number},${street.name}, ${state} ${postcode}</p>
-    <p>Birthday:${date.getMonth()}/${date.getDate()}/${date.getFullYear()}</p>
+    <p>Birthday:${((date.getMonth() + 1) < 10 ? '0' : '')+ (date.getMonth() + 1)}/${(date.getDate() < 10 ? '0' : '')+ date.getDate()}/${date.getFullYear()}</p>
     </div>
     `;
   overlay.classList.remove("hidden");
   modalContainer.innerHTML = modalHTML;
 };
-
 gridContainer.addEventListener('click', e => {
   if (e.target !== gridContainer) {
     const card = e.target.closest(".card-container");
